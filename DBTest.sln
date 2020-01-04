@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookLibrary.DB", "BookLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLibrary.Api", "BookLibrary.Api\BookLibrary.Api.csproj", "{83F6C1CA-B6CF-4377-B006-DA04A0207A64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLibrary.UI", "BookLibrary.UI\BookLibrary.UI.csproj", "{C56E786D-920A-4B4F-8C97-FA3A6D9B9B28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{83F6C1CA-B6CF-4377-B006-DA04A0207A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F6C1CA-B6CF-4377-B006-DA04A0207A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F6C1CA-B6CF-4377-B006-DA04A0207A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56E786D-920A-4B4F-8C97-FA3A6D9B9B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56E786D-920A-4B4F-8C97-FA3A6D9B9B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56E786D-920A-4B4F-8C97-FA3A6D9B9B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56E786D-920A-4B4F-8C97-FA3A6D9B9B28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

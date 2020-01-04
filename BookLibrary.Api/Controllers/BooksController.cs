@@ -25,14 +25,15 @@ namespace BookLibrary.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
         {
-            return await _context.Books.ToListAsync();
+            // Include is used to get the actual author object for each book
+            return await _context.Books.Include("Author").ToListAsync();
         }
 
         // GET: api/Books/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Book>> GetBook(int id)
         {
-            var book = await _context.Books.FindAsync(id);
+            var book = await _context.Books.Include("Author").Where(b => b.BookId == id).FirstOrDefaultAsync();
 
             if (book == null)
             {
